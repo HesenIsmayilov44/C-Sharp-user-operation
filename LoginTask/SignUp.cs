@@ -45,7 +45,14 @@ namespace LoginTask
             string password = tb_password.Text;
             string passwordConfirm = tb_passwordConfirm.Text;
             string adminKey = tb_adminAccessKey.Text;
+            if(!username.All(c => Char.IsLetterOrDigit(c)) || !password.All(c => Char.IsLetterOrDigit(c)))
+            {
+                lbl_passwordError.Visible = (password.All(c => Char.IsLetterOrDigit(c))) ? false : true;
+                lbl_usernameError.Visible = (username.All(c => Char.IsLetterOrDigit(c))) ? false : true;
 
+                MessageBox.Show("The value of inputs can contains only letters and numbers");
+                return;
+            }
             if(username.Length < 8 )
             {
                 MessageBox.Show("The username and the password must be at least 8 characters.");

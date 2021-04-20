@@ -51,7 +51,15 @@ namespace LoginTask
             string passwordConfirm = tb_passwordConfirm.Text;
             string adminKey = tb_adminAccessKey.Text;
 
-            if(adminKey != User.AdminKey)
+            if (!username.All(c => Char.IsLetterOrDigit(c)) || !password.All(c => Char.IsLetterOrDigit(c)))
+            {
+                lbl_passwordError.Visible = (password.All(c => Char.IsLetterOrDigit(c))) ? false : true;
+                lbl_usernameError.Visible = (username.All(c => Char.IsLetterOrDigit(c))) ? false : true;
+
+                MessageBox.Show("The value of inputs can only contain letters and numbers");
+                return;
+            }
+            if (adminKey != User.AdminKey)
             {
                 MessageBox.Show("Invalid Admin Key");
                 return;
