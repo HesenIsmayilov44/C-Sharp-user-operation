@@ -11,20 +11,19 @@ Sign up:
 actions:
 	password confirm +
 	check admin key for admin panel access +
-	change password 
+	change password +
 	available inputs value:
-		minimum 8 character for username
-		minimum 8 character for password
-	create user
-	write new user database
-	read users from database
+		minimum 8 character for username +
+		minimum 8 character for password +
+	create user +
+	write new user database +
+	read users from database +
 	
 
 admin panel:
-	admin can see all users
-	can change password of them
-	can change username of them
-	can delete users
+	admin can see all users+
+	can delete users+
+	can add users+
 User class:
 	User verification +
 	User add +
