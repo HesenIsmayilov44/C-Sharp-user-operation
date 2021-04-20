@@ -1,0 +1,17 @@
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.Main.resources
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.Properties.Resources.resources
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.csproj.GenerateResource.cache
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.csproj.CoreCompileInputs.cache
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\bin\Debug\LoginTask.exe.config
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\bin\Debug\LoginTask.exe
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\bin\Debug\LoginTask.pdb
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\bin\Debug\PlaceholderTextBox.dll
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.csproj.CopyComplete
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.exe
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.pdb
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.SignIn.resources
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.SignUp.resources
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.csprojAssemblyReference.cache
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.DeleteProfileDialog.resources
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.DeleteUser.resources
+C:\Users\Hesen\source\repos\LoginTask\LoginTask\obj\Debug\LoginTask.AddUser.resources

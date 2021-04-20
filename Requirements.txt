@@ -1,0 +1,34 @@
+Sign in:
+	inputs:
+		username +
+		password +
+Sign up:
+	inputs:
+		username +
+		password +
+		password confirm +
+		admin key +
+actions:
+	password confirm +
+	check admin key for admin panel access +
+	change password 
+	available inputs value:
+		minimum 8 character for username
+		minimum 8 character for password
+	create user
+	write new user database
+	read users from database
+	
+
+admin panel:
+	admin can see all users
+	can change password of them
+	can change username of them
+	can delete users
+User class:
+	User verification +
+	User add +
+	User exist +
+
+	
+	
